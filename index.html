@@ -10,23 +10,30 @@
 </head>
 
 <body>
-    <div class ="container">
-    <section id="start">
-        <h2>Code Quizzer 3000</h2>
-        <button>Start Quiz</button>
-    </section>
-    <section id="quiz">
-        <h2 id="title">Questions</h2>
-        <div id="questions-container" class ="hide"></div>
-        <div class="controls">
-        <button id="displaybtn" class="display-btn btn">Display Question</button>
-        <button id="next-btn" class="next-btn btn hide"> Next Button</button>
-    </section>
+    <title>Code Quizzer</title>
+    <div class="container">
+        <div id="question-container" class="hide"></div>
+        <div id="question">Code Quizzer Questions</div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="answer-buttons">Answer 1</button>
+            <button class="answer-buttons">Answer 2</button>
+            <button class="answer-buttons">Answer 3</button>
+            <button class="answer-buttons">Answer 4</button>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button id="start-btn" class="start-btn">Start Quiz Now</button>
+        <button id="next-btn" class="next-btn btn hide">Next Question</button>
+
+
+
+        </section>
     </div>
     <section id="end">
         <h2>Enter Initials</h2>
         <input type="text" />
-        <button onclick ="">Submit</button>
+        <button onclick="">Submit</button>
     </section>
     <script src="./script.js"></script>
 </body>

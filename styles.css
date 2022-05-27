@@ -1,7 +1,6 @@
 *, *::before, *::after {
-
-    box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+box-sizing: border-box;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 :root {
@@ -25,15 +24,16 @@ body {
 
 body.correct {
     --hue: var(--hue-correct);
+    --hue: var(--hue-wrong);
 }
 
 .container {
-    width: 800px;
-    max-width: 80%;
+    width: 1000px;
+    max-width: 90%;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 9px;
     padding: 10px;
-    box-shadow: 0 0 10px 2px;
+    box-shadow: 0 0 10px 4px;
 }
 
 .btn-grid {
@@ -46,20 +46,25 @@ body.correct {
 
 .btn {
     --hue: var(--hue-neutral);
-    border: 1px solid hsl(var(--hue), 100% 30%);
-    background-color: hsl(var(--hue), 100% 50%);
+    border: 1px solid hsl(var(--hue), 100% 90%);
+    background-color: hsl(var(--hue), 10% 50%);
     border-radius: 5px;
     padding: 5px 10px;
     color: white;
-    outline: none;
+    
+}
+.answer-buttons:hover {
+
 }
 
 .btn:hover {
-    border-color: grey;
+    border-color: black;
+    transition-delay: 04ms;
 }
 .btn.correct {
     --hue: var(--hue-correct);
-    color: black
+    color: black;
+    
 }
 .btn.wrong {
     --hue: var(--hue-wrong);
