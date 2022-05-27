@@ -15,10 +15,9 @@ THEN I can save my initials and score
 This module’s Challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface.
 
 ## Resources
-[Git Hub Repo](https://github.com/FocusKing/marquise-design-portfolio)
+[Git Hub Repo](https://github.com/FocusKing/CodeQuizzer)
 
-[LIVE SITE](https://focusking.github.io/marquise-design-portfolio/)
-
+[LIVE SITE](https://focusking.github.io/CodeQuizzer/)
 ## Table of Contents 
 
 - [Usage](#usage)
